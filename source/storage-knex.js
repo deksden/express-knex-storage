@@ -12,7 +12,6 @@ export default (app) => {
   const aStorage = {
     props: {},
     name: 'KNEX-Generic',
-    url: '',
 
     processBeforeSaveToStorage: processBeforeSaveToStorage,
     processAfterLoadFromStorage: processAfterLoadFromStorage,
