@@ -14,7 +14,7 @@
   "author": "deksden",
   "license": "MIT",
   "dependencies": {
-    "knex": "^0.17.6",
+    "knex": "^0.18.3",
     "lodash": "^4.17.11"
   }
 }
