@@ -1,6 +1,6 @@
 {
   "name": "express-knex-storage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generic storage for Express-Knex project",
   "main": "./lib/index.js",
   "scripts": {
@@ -20,8 +20,8 @@
     "src"
   ],
   "repository": {
-      "type": "git",
-      "url": "https://github.com/express-knex/express-knex-storage.git"
+    "type": "git",
+    "url": "https://github.com/express-knex/express-knex-storage.git"
   },
   "keywords": [],
   "author": "deksden",
