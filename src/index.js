@@ -1,5 +1,4 @@
 import _ from 'lodash'
-import Knex from 'knex'
 import { processBeforeSaveToStorage, processAfterLoadFromStorage } from './process-props'
 
 const withWhereIn = (queryBuilder, opt) => {
