@@ -9,6 +9,7 @@ const withWhereIn = (queryBuilder, opt) => {
 
 export default (app) => {
   const aStorage = {
+    db: {},
     props: {},
     name: 'KNEX-Generic',
 

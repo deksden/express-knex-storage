@@ -4,10 +4,14 @@ import Storage from '../src'
 describe('Storage test', () => {
   it('should have all Storage keys', () => {
     const app = Storage({})
-    expect(app).to.have.keys('db', 'name',
+    expect(app).to.include.keys(
+      'db',
+      'name')
+    expect(app).to.include.keys(
       'processBeforeSaveToStorage',
       'processAfterLoadFromStorage',
-      'mapPropToKnexTable',
+      'mapPropToKnexTable')
+    expect(app).to.include.keys(
       'initStorage',
       'closeStorage',
       'init',
